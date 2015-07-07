@@ -1,0 +1,19 @@
+{
+  "name": "GLDice",
+  "version": "1.0.0",
+  "description": "WebGL Demo of Dice",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jaegerpicker/GLDice.git"
+  },
+  "author": " <Shawn Campbell>",
+  "license": " MIT",
+  "bugs": {
+    "url": "https://github.com/jaegerpicker/GLDice/issues"
+  },
+  "homepage": "https://github.com/jaegerpicker/GLDice"
+}
