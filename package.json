@@ -7,7 +7,9 @@
   "scripts": {
     "postinstall": "gulp build --production",
     "start": "node src/server",
-    "test": "gulp test"
+    "test": "gulp test",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "engines": {
     "iojs": ">= 2.2.x",
@@ -53,7 +55,7 @@
     "karma-notify-reporter": "^0.1.1",
     "karma-sourcemap-loader": "^0.3.5",
     "karma-webpack": "^1.5.1",
-    "less": "^2.5.1",
+    "less": "^3.0.2",
     "less-loader": "^2.0.0",
     "mocha": "^2.2.5",
     "nconf": "^0.7.1",
@@ -77,6 +79,8 @@
     "validator": "^3.34.0",
     "webpack": "^1.9.5",
     "webpack-dev-server": "^1.7.0",
-    "yargs": "^3.3.1"
-  }
+    "yargs": "^3.3.1",
+    "snyk": "^1.83.0"
+  },
+  "snyk": true
 }
