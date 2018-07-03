@@ -7,7 +7,9 @@
   "scripts": {
     "postinstall": "gulp build --production",
     "start": "node src/server",
-    "test": "gulp test"
+    "test": "gulp test",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "engines": {
     "iojs": ">= 2.2.x",
@@ -15,10 +17,10 @@
   },
   "dependencies": {
     "autoprefixer-loader": "^2.0.0",
-    "babel": "^5.0.8",
-    "babel-core": "^5.0.8",
-    "babel-eslint": "^3.0.1",
-    "babel-loader": "^5.0.0",
+    "babel": "^6.0.0",
+    "babel-core": "^6.9.0",
+    "babel-eslint": "^4.1.7",
+    "babel-loader": "^6.0.0",
     "bluebird": "^2.9.9",
     "body-parser": "^1.12.4",
     "chai": "^3.0.0",
@@ -28,7 +30,7 @@
     "cors": "^2.6.0",
     "css-loader": "0.14.5",
     "del": "^1.1.1",
-    "eslint": "^0.24.0",
+    "eslint": "^2.1.0",
     "eslint-plugin-react": "^2.6.3",
     "eventemitter3": "^1.0.1",
     "express": "^4.11.2",
@@ -37,7 +39,7 @@
     "flux": "^2.0.1",
     "gulp": "^3.8.10",
     "gulp-bg": "0.0.5",
-    "gulp-eslint": "^0.15.0",
+    "gulp-eslint": "^2.0.0",
     "gulp-util": "^3.0.2",
     "harmonize": "^1.4.1",
     "immutable": "^3.6.4",
@@ -45,14 +47,14 @@
     "intl": "^0.1.4",
     "intl-messageformat": "^1.1.0",
     "intl-relativeformat": "^1.1.0",
-    "karma": "^0.12.36",
+    "karma": "^2.0.0",
     "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^0.2.0",
     "karma-coverage": "^0.4.2",
     "karma-mocha": "^0.2.0",
     "karma-notify-reporter": "^0.1.1",
     "karma-sourcemap-loader": "^0.3.5",
-    "karma-webpack": "^1.5.1",
+    "karma-webpack": "^2.0.10",
     "less": "^2.5.1",
     "less-loader": "^2.0.0",
     "mocha": "^2.2.5",
@@ -77,6 +79,8 @@
     "validator": "^3.34.0",
     "webpack": "^1.9.5",
     "webpack-dev-server": "^1.7.0",
-    "yargs": "^3.3.1"
-  }
+    "yargs": "^3.3.1",
+    "snyk": "^1.88.0"
+  },
+  "snyk": true
 }
