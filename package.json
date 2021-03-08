@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "autoprefixer-loader": "^2.0.0",
-    "babel": "^5.0.8",
+    "babel": "^6.0.0",
     "babel-core": "^5.0.8",
     "babel-eslint": "^3.0.1",
     "babel-loader": "^5.0.0",
@@ -45,7 +45,7 @@
     "intl": "^0.1.4",
     "intl-messageformat": "^1.1.0",
     "intl-relativeformat": "^1.1.0",
-    "karma": "^0.12.36",
+    "karma": "^4.2.0",
     "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^0.2.0",
     "karma-coverage": "^0.4.2",
@@ -75,7 +75,7 @@
     "stylus-loader": "^1.0.0",
     "url-loader": "^0.5.5",
     "validator": "^3.34.0",
-    "webpack": "^1.9.5",
+    "webpack": "^2.2.0",
     "webpack-dev-server": "^1.7.0",
     "yargs": "^3.3.1"
   }
